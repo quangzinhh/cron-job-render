@@ -2,7 +2,7 @@ import requests
 import time
 
 def call_api():
-    url = 'https://your-api-endpoint.com'
+    url = 'https://englishapp-dev.onrender.com'
     response = requests.get(url)
     print(f'API response: {response.status_code}, {response.text}')
 
